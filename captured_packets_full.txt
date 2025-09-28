@@ -1,0 +1,33 @@
+[2025-09-28 21:48:26] HTTP Request (GET /books HTTP/1.1) 127.0.0.1:64118 -> 127.0.0.1:8080
+GET /books HTTP/1.1
+Host: localhost:8080
+
+
+--------------------------------------------------------------------------------
+[2025-09-28 21:48:26] HTTP Response (HTTP/1.1 200 OK) 127.0.0.1:8080 -> 127.0.0.1:64118
+HTTP/1.1 200 OK
+Content-Length: 796
+Content-Type: application/json
+Server: Microsoft-HTTPAPI/2.0
+Date: Sun, 28 Sep 2025 14:48:26 GMT
+
+[{"BookId":1,"Title":"Harry Potter and the Philosopher\u0027s Stone","PublicationYear":1997,"GenreId":1},{"BookId":2,"Title":"1984","PublicationYear":1949,"GenreId":2},{"BookId":3,"Title":"The Hobbit","PublicationYear":1937,"GenreId":1},{"BookId":4,"Title":"Murder on the Orient Express","PublicationYear":1934,"GenreId":3},{"BookId":5,"Title":"The Da Vinci Code","PublicationYear":2003,"GenreId":4},{"BookId":6,"Title":"Sapiens: A Brief History of Humankind","PublicationYear":2011,"GenreId":5},{"BookId":7,"Title":"The Handmaid\u0027s Tale","PublicationYear":1985,"GenreId":2},{"BookId":8,"Title":"Foundation","PublicationYear":1951,"GenreId":6},{"BookId":9,"Title":"I, Robot","PublicationYear":1950,"GenreId":6},{"BookId":10,"Title":"Foundation and Empire","PublicationYear":1952,"GenreId":6}]
+--------------------------------------------------------------------------------
+[2025-09-28 21:49:56] TCP 127.0.0.1:64245 -> 127.0.0.1:5000
+1
+--------------------------------------------------------------------------------
+[2025-09-28 21:49:56] TCP 127.0.0.1:5000 -> 127.0.0.1:64245
+Product Id: 1, Name: iPhone 14, Price: $29,990,000.00, Category: Smartphones
+--------------------------------------------------------------------------------
+[2025-09-28 21:49:58] TCP 127.0.0.1:64245 -> 127.0.0.1:5000
+2
+--------------------------------------------------------------------------------
+[2025-09-28 21:49:58] TCP 127.0.0.1:5000 -> 127.0.0.1:64245
+Product Id: 2, Name: Samsung Galaxy S23, Price: $24,990,000.00, Category: Smartphones
+--------------------------------------------------------------------------------
+[2025-09-28 21:51:06] UDP 127.0.0.1:53971 -> 127.1.1.1:5000
+testing
+--------------------------------------------------------------------------------
+[2025-09-28 21:51:07] UDP 127.0.0.1:53971 -> 127.1.1.1:5000
+testing
+--------------------------------------------------------------------------------

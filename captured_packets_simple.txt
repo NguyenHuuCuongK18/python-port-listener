@@ -1,0 +1,8 @@
+[2025-09-28 21:48:26]: [HTTP Request (GET /books HTTP/1.1)] detected from [127.0.0.1:64118] to [127.0.0.1:8080]: GET /books HTTP/1.1 Host:localhost:8080
+[2025-09-28 21:48:26]: [HTTP Response (HTTP/1.1 200 OK)] detected from [127.0.0.1:8080] to [127.0.0.1:64118]: HTTP/1.1 200 OK
+[2025-09-28 21:49:56]: [TCP] detected from [127.0.0.1:64245] to [127.0.0.1:5000]: 1
+[2025-09-28 21:49:56]: [TCP] detected from [127.0.0.1:5000] to [127.0.0.1:64245]: Product Id: 1, Name: iPhone 14, Price: $29,990,000.00, Category: Smartphones
+[2025-09-28 21:49:58]: [TCP] detected from [127.0.0.1:64245] to [127.0.0.1:5000]: 2
+[2025-09-28 21:49:58]: [TCP] detected from [127.0.0.1:5000] to [127.0.0.1:64245]: Product Id: 2, Name: Samsung Galaxy S23, Price: $24,990,000.00, Category: Smartphones
+[2025-09-28 21:51:06]: [UDP] detected from [127.0.0.1:53971] to [127.1.1.1:5000]: testing
+[2025-09-28 21:51:07]: [UDP] detected from [127.0.0.1:53971] to [127.1.1.1:5000]: testing
